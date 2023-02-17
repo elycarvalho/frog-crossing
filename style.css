@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', arial, sans-serif;
+	overflow: hidden;
+}
+
+html{
+	overflow: hidden;
+}
+
+
+
+.cenario{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 90vw;
+	height: 400px;
+	border: 1px solid lightgray;
+}
+
+.character{
+	position: absolute;
+	bottom: 0;
+	margin-left: 150px;
+	width: 30px;
+	height: 40px;
+	background-color: gray;
+}
+
+.veiculo{
+	width: 45px;
+    height: 30px;
+    background-color: lightgray;
+}
+
+.pista1, .pista2, .pista3{
+	display: flex;
+	align-items: center;
+	height: 60px;
+    border: 1px solid blue;
+}
+
+.canteiro{
+	height: 50px;
+}
+
+.veiculos1, .veiculos2, .veiculos3{
+	position: absolute;
+	right: -360px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 550px;
+    height: 45px;
+}
+
+
