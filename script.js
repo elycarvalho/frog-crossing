@@ -13,7 +13,7 @@ function moveVeiculos1() {
     	posicao = 95
     } 
     console.log('pos 1 ' + posicao)
-    if(posicao1 > -40 && posicao1 < 14 && upDown > 246 && upDown < 336) {
+    if(posicao > -40 && posicao < 14 && upDown > 246 && upDown < 336) {
         alert('atropelou')
     }
 }
@@ -42,9 +42,13 @@ function moveVeiculos3() {
     }
 }
 
-intervalo = setInterval(moveVeiculos1, 20)
-intervalo2 = setInterval(moveVeiculos2, 30)
-intervalo3 = setInterval(moveVeiculos3, 40)
+//intervalo = setInterval(moveVeiculos1, 15)
+//intervalo2 = setInterval(moveVeiculos2, 18)
+//intervalo3 = setInterval(moveVeiculos3, 25)
+
+intervalo = setInterval(moveVeiculos1, 9)
+intervalo2 = setInterval(moveVeiculos2, 12)
+intervalo3 = setInterval(moveVeiculos3, 18)
 
 let upDown = 0 
 let leftRight = 0
